@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+      .big{
+          position: relative;
+      }
+      .suv b::before{
+         content: "__";
+         position: absolute;
+         bottom: -5px;
+         left: 50%;
+         transform: translate(-40% ,30%);
+      }
+      .suv b{display: block;}
+      .suv{
+          text-align: center;
+          position: relative;
+          display: block;
+      }
+      b:hover::before{
+         transform: translate(200%,30%);
+         transition: all 1s linear;
+      }
+    </style>
+</head>
+<body>
+  
+        <h1 class="suv"><b>Bây giờ</b></h1>
+
+</body>
+</html>

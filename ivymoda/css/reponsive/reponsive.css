@@ -1,0 +1,217 @@
+@media(min-width:280px) and (max-width:767px){
+    .navbar-inverse{
+        height: 70px;
+    }
+    .navlist{
+        display: none;
+    }
+    .navbar-right > li.shopping{
+        display: block;
+    }
+    .navbar-right > li.shopping_copy{
+        display: none;
+    }
+    .navlist1{
+        margin-top: 10px;
+        padding-left: 0px;
+        position: fixed;
+        background: #fff;
+        overflow-y: auto;
+        top: 60px;
+        right: 0px;
+        bottom: -10px;
+        left: 0px;
+        z-index: 1000;
+    }
+    .navlist1 > li a{
+        color: #000;
+        font-size: 15px;
+    }
+    .navlist1 > li{
+        padding: 5px 15px;
+    }
+    .navbut{
+        position: absolute;
+        top: 50%;
+        left: 25px;
+        transform: translate(-50%,-50%);
+        width: 30px;
+        height: 20px;
+        display: block;
+        background: none;
+        border: 1px;
+    }
+    .navbut:focus{
+        outline: none;
+    }
+    .navbut span{
+        width: 20px;
+        height: 2px;
+        background: #000;
+        margin-bottom: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .slider_index2{
+        margin-top: 30px;
+    }
+    .navbar-brand img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .navbar-right > .user_acount{
+        display: none;
+    }
+    .navbar-right > .shopping{
+        position: absolute;
+        top: 50%;
+        right: -5px;
+        transform: translate(-50%,-50%);
+        display: block;
+    }
+    .navbar-right > li > .fa-user, .fa-shopping-bag{
+        border-left: none;
+    }
+    .navbar-right > li a .fa-search {
+        position: absolute;
+        right: 50px;
+        bottom: 5px;
+        color: #000;
+    }
+    .navbar-right > li form {
+        display: none;
+    }
+    .form_search_mobie{
+        display: block;
+    }
+    .form_search_mobie input{
+        width: 100%;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #000;
+    }
+    .form_search_mobie input:focus{
+       outline: none;
+    }
+    .form_search_mobie a{
+        position: absolute;
+        top: 3px;
+        right: 15px;
+    }
+    .form_search_mobie a .fa-search{
+        color: #000;
+        font-size: 17px;
+    }
+    .navbar-inverse .navlist{
+        margin-left: -15px;
+        background: #fff;
+        width: 110%;
+        margin-top: 20px;
+    }
+    .navbar-inverse > .navlist > li:hover .dropdown_list{
+        display: none;
+    }
+    .user_acount_mobie{
+        display: block;
+        text-align: center;
+        padding: 5px 0px;
+        border-top: 1px dashed #ccc;
+        border-bottom: 1px dashed #ccc;
+    }
+    .user_acount_mobie a{
+        color: #000;
+        text-decoration: none;
+    }
+    .list_title_menu{
+        display: none;
+    }
+    .list_menu_top{
+        display: none;
+    }
+    .sub_size > ul > li{
+        margin-bottom: 15px;
+    }
+    .navbar-inverseul > .navlist > li:hover .dropdown-menu{
+        display: none;
+    }
+}
+@media(min-width:768px) and (max-width:990px){
+    .navbut{
+        display: none;
+    }
+    .navlist1.navlist1.collapse.in{
+        display: none;
+    }
+    .navbar-inverse .navlist{
+        display: block;
+        margin-left: -20px;
+    }
+    .navbar-inverse .navlist > li a{
+        text-transform: inherit;
+    }
+    .navbar-inverse .navlist > li{
+        width: auto;
+    }
+    .navbar-brand > img {
+        width: 80%;
+    }
+    .navbar-right > li form {
+        width: 100px;
+    }
+    .navbar-right > li form input{
+        width: 100%;
+    }
+    .sub_size > ul > li{
+        margin-bottom: 15px;
+    }
+    .size_list h5{
+        font-size: 15px;
+    }
+    .size_list select{
+        font-size: 10px;
+    }
+    .button_skip_money_01 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .button_skip_money_01 a{
+        margin-bottom: 10px;
+    }
+}
+@media(min-width:991px) and (max-width:1125px){
+  .navbut{
+      display:none;
+  }
+  .navlist1.collapse.in {
+    display: none;
+  }
+  .navbar-inverse .navlist{
+    display: block;
+    margin-left: 50px;   
+   }
+   .sub_size > ul > li{
+    margin-bottom: 15px;
+}
+.modal-dialog{
+    width: 1000px;
+}
+}
+@media(min-width:1126px){
+    .navbut{
+        display: none;
+    }
+    .navlist1.collapse.in {
+        display: none;
+    }
+    .navbar-inverse .navlist{
+        display: block;
+    }
+    .modal-dialog{
+        width: 1000px;
+    }
+}
+

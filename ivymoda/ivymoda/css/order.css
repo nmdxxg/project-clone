@@ -1,0 +1,102 @@
+.title_content_order_01{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+.content_order{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info_customer{
+    padding-bottom: 5px;
+    padding-top: 5px;   
+}
+.info_customer p sup{
+    color: red;
+}
+.info_customer input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.info_customer select{
+    width: 100%;
+    padding:5px;
+    border: 1px solid #ccc;
+}
+.info_customer textarea{
+    border: 1px solid #ccc;
+}
+.back_cart{
+    color: coral;
+    font-size: 13px;
+    text-decoration: none;
+}
+.pay_delivery{
+    border: 2px;
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: right;
+}
+
+.title_order{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.order_customer .table_order {
+    border-left: 1px solid #ccc;
+}
+.table_order > table{
+    width: 100%;
+}
+.table_order > table > thead > tr > th{
+  padding: 5px 10px;
+}
+.table_order > table > tbody > tr > td{
+    padding: 5px 10px;
+}
+.table_order > table > tfoot > tr > td{
+    padding: 5px 10px;
+}
+.drop_list_popul{
+    width: 300px;
+    padding-left: 0px;
+    font-size: 13px;
+    overflow-y: scroll;
+}
+.drop_list_popul > li{
+    padding: 0px;
+}
+.drop_list_popul .title_popul{
+    text-align: center;
+    background: #000;
+    color: #fff;
+    margin-top: -5px;
+    font-size: 15px;
+    padding: 7px 0px;
+}
+.detail_text_popul{
+    padding: 5px 0px;
+    margin-bottom: 5px;
+    border-bottom: 1px dashed #ccc;
+}
+.detail_text_popul:hover{
+    background: #ccc;
+}
+.detail_text_popul a{
+    color: #000;
+}
+.navbar-right > li.shopping{
+    display: none;
+}
+
+

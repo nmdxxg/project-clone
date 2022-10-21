@@ -1,0 +1,71 @@
+.content{
+    padding-top: 90px;
+}
+.title_content_big{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;    
+}
+.big_column{
+    margin-top: 60px;
+}
+.user_info{
+    font-size: 13px;
+}
+.user_info .title_user_info{
+    font-weight: bold;
+}
+.input_user_info input{
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    width: 60%;
+}
+.user_info .row{
+    margin-bottom: 10px;
+}
+.input_user_info3 button{
+    border:1px;
+    background: #000;
+    color: #fff;
+    padding: 7px 30px;
+    width: 60%;
+    text-transform: uppercase;
+}
+.custormer_new{
+    font-size: 13px;
+}
+.custormer_new .title_custormer{
+    font-weight: bold
+}
+.custormer_new .title_custormer2{
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 13px;
+    text-transform: unset;
+}
+.custormer_new .pull-left{
+    list-style: none;
+    padding-left: 0px;
+}
+.list_register .left a img{
+    width: 100%;
+}
+.list_register .left{
+    margin-right: -15px;
+}
+.list_register .right a img{
+    width: 100%;
+}
+.custormer_new .add_new{
+    border:1px;
+    background: #000;
+    color: #fff;
+    padding: 10px 70px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.custormer_new .add_new:hover{
+    text-decoration: none;
+}

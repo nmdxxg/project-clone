@@ -1,0 +1,23 @@
+12 form, array
+13 session, cookie, lường chạy cơ bản
+14 hướng đối tượng
+15. mySql
+16. MySql, sử dụng php kết nối mysql để vào ra dữ luệ
+17 mô hình MVC, sử dụng xây dựng website
+ 17-> 25 hướng dẫn xây dựng website hoàn thiện
+   -backend
+     đăng nhập
+     đăng xuất
+     quản lý users theo mô hình CRUD
+     quản lý danh mục đa cấp
+     quản lý sản phẩm
+     -quản lý thuộc tính của sản phẩm
+   -frontend
+     dựng khung website
+     xây dựng trang chủ
+     trang danh mục
+       sắp xếp sản phẩm, tìm kiếm, star rating ....
+     trang chi tiết
+     giỏ hàng, quy trình mua hàng
+     lọc sản phẩm theo: giá, thuộc tính....
+25-30: tìm hiểu laravel

@@ -1,0 +1,107 @@
+.title_content_pay{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+.content_pay{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-size: 13px;
+    border-bottom: 2px solid #000;
+}
+.content_big_pay{
+    padding-top: 40px;
+}
+.content_pay_01 h4{
+    font-size: 14px;
+    padding: 5px 0px;
+}
+.content_pay_01 p{
+    padding: 5px 0px;
+}
+.text_pay_01{
+    font-size: 11px;
+}
+.text_pay_02 img{
+    width: 5%;
+}
+.link_click_pay_02 a{
+   color: coral;
+   font-size: 13px;
+}
+.link_click_pay_02 button{
+    float: right;
+    border: 1px;
+    background: #000;
+    color: #fff;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+.link_click_pay_02 button:hover{
+    background: #ccc;
+    color: #000;
+}
+
+/* content-right */
+.title_input_pay_02{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+.text_pay-03{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #ccc;
+}
+.text_01_pay_03{
+    padding-right: 0px;
+}
+.text_01_pay_03 input{
+   padding: 3px 5px;
+   border:1px solid #ccc;
+   width: 80%;
+   margin-left: 30px;
+   display: block;
+}
+.text_02_pay_03 button{
+    border:1px;
+    background: #000;
+    padding: 4px 30px;
+    color: #fff;
+}
+.text-pay_03{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px; 
+    border-bottom: 1px dashed #ccc;  
+}
+.text-pay_03 select{
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+/* table */
+.table_pay_02{
+    padding-top: 20px;
+}
+.table_pay_02 > table{
+    padding-top: 10px;
+    width: 100%;
+    font-size: 12px;
+}
+.table_pay_02 > table td{
+   padding: 5px 0px;
+}
+.table_pay_02 > table .td_center{
+    text-align: center;
+}
+.table_pay_02 > table .td_2{
+    float: right;
+}
+.table_pay_02 > table > tfoot > tr > .t_right{
+    text-align: right;
+}

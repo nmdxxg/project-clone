@@ -1,0 +1,107 @@
+.content_gio_hang{
+    padding-top: 80px;
+    border-bottom: 2px solid #000;
+}
+.title_giohang{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+.text_giohang{
+    padding-top: 50px;
+}
+.text_giohang p , a{
+    color: #000;
+    font-size: 14px;
+}
+.skip_money_01 table{
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    margin-right: 5px;
+}
+.skip_money_01 table thead,tbody{
+    padding: 10px 0px;
+}
+.skip_money_01 table thead tr th{
+    text-transform: uppercase;
+    padding: 10px 0px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+.skip_money_01 table > tbody > tr{
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+.skip_money_01 table > tbody > tr td{
+    padding: 10px 5px;
+}
+/* bien_lai */
+.skip_money_02{
+    border-left: 1px solid #ccc;
+    padding-top: 5px;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+.title_skip_money{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.receipt > table{
+    width: 100%;   
+    border-top: 1px solid #ccc; 
+    padding-top: 10px;
+}
+.receipt > table > tbody > tr > td{
+    padding: 10px 0px;
+}
+.receipt > table > tbody > tr td:first-child{
+    width: 80%;
+    text-transform: uppercase;
+}
+.text_report_skip_money{
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.button_skip_money_01{
+    text-align: center;
+}
+.button_skip_money_01 .button_skip_money_02{
+    border:1px solid #000;
+    padding: 7px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+.button_skip_money_01 .button_skip_money_02:hover{
+    background: #ccc;
+}
+.button_skip_money_01 .button_skip_money_03{
+    border:1px;
+    background: #000;
+    padding: 8px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 1.5;
+    letter-spacing: 0.5;
+    
+}
+.account_skip_money{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.report_account_skip_money a{
+    color: coral;
+    font-size: 12px;
+}

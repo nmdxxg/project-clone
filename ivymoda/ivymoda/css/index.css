@@ -1,0 +1,213 @@
+body{
+    width: 100% !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    text-decoration: none;
+    opacity: .7;
+}
+.active{
+    border-radius: 50%;
+}
+.navbar-inverse{
+    background: rgba(233, 224, 224 ,.4);
+    border:1px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+.navlist1 > li {
+    list-style: none;
+}
+.navlist1 > li a{
+    text-decoration:none;
+}
+.navlist1 > li > ul > li{
+    list-style: none;
+}
+.navlist1 > li > ul > li a{
+    text-decoration: none;
+}
+.dropdown_list1 > li{
+    list-style: none;
+}
+.navlist1 > li > ul > li > ul > li a{
+    text-decoration: none;
+}
+.navlist1 > li > ul > li h5 a{
+    list-style: none;
+    text-decoration: none;
+}
+.darkHeader{
+    background: #fff;
+}
+.user_acount_mobie{
+    display: none;
+}
+.navbar-inverse .navlist{
+    margin-left: 130px;
+    padding-top: 10px;
+}
+.navbar-inverse .navlist > li a{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #666;
+    font-size: 13px;
+}
+.navbar-inverse .navlist > li a:hover{
+    opacity: .7;
+    color: #666;
+}
+ .navbar-inverse .navlist > li > .dropdown_list >li a{
+    font-weight: inherit;
+    text-transform: capitalize;
+    text-decoration: none;
+} 
+.navbar-inverse .navlist > li > .dropdown_list >li h5 a{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+}
+.navbar-inverse .navlist > li a:hover .navbar-inverse .navlist > li > .dropdown_list{
+    display: block; 
+} 
+.navbar-right{
+    padding-top: 10px;
+}
+.navbar-right > li input{
+    border: 1px;
+    border-bottom: 1px solid #666;
+    position: relative;
+    color: #000;
+    padding-left: 5px;
+    background: none;
+}
+.navbar-right > li input:focus{
+    outline: none;
+}
+.navbar-right > li input:focus{
+    border-top: 1px;
+}
+.navbar-right > li input::placeholder{
+    font-size: 12px;
+}
+.navbar-right > li a .fa-search{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    color: #000
+}
+.navbar-right > li a{
+    padding-right: 0px;
+}
+.navbar-right > li a .fa-user,.fa-shopping-bag{
+    border-left: 1px solid #cccccc;
+    padding-left: 10px; 
+    color: #000;
+}
+.navbar-right > li form{
+    padding-top: 10px;
+}
+.content{
+    padding-top: 75px;  
+}
+.form_search_mobie{
+    display: none;
+}
+/* footer */
+.footer{
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;   
+}
+.title_footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}   
+.search_input{
+    margin-top: 30px;
+    text-align: center;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search_input form input{
+  border:1px;
+  border-bottom: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  padding: 10px 0px;
+}
+.search_input form input:focus{
+    outline: none;
+}
+.search_input form{
+    position: relative;
+    margin: auto;
+}
+.search_input form button{
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    color: #666;
+}
+.search_input form input::placeholder{
+    font-size: 12px;
+}
+.search_input form a{
+    position: absolute;
+    right: 0px;
+}
+/* menu */
+.menu_bottom{
+    text-align: center;
+    margin-top: 70px;
+}
+.menu_bottom > ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;
+    border-right: 1px solid #ccc;
+}
+.menu_bottom > ul{
+    padding-left: 0px;
+}
+.menu_bottom > ul>li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;   
+    font-weight: bold; 
+}
+.menu_bottom > ul>li >ul{
+    padding-left: 0px;
+}
+.menu_bottom > ul>li >ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.menu_bottom > ul>li >ul>li a{
+    color: #000;
+}
+.menu_bottom > ul > li a img{
+    width: 90px;
+}
+.adress{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.copyright_index{
+    text-align: center;
+    padding: 5px 0px;
+    background: #f8f8f8;;
+}
